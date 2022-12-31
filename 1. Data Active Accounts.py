@@ -2,11 +2,11 @@ import tweepy
 import pandas as pd
 import numpy as np
 
-consumer_key = 'bF0lUlqcAyq4EzIFaOEGRzhEo'
-consumer_secret = 'IxpeDQRpPKXJumiN6Ayp47cKl4DEizOFkS6gDA9EIIIRbhkKWi'
-access_token = '1489250510075232263-5z0uah6yKZnGlRGWkA5lt3EyDklycy'
-access_token_secret = '9rCKmBECBhAPkVWhcYGjtHFnIQufRgFM6OjcecJ3OWAC7'
-bearer = 'AAAAAAAAAAAAAAAAAAAAANPNZgEAAAAAIJz4FuZf%2Bs3iFkdYdf8BD3JYdB8%3D64FSYxRj0QoRQWvncFyUEfdx4E25tzqipIcxWMEplo9eWSBBRZ'
+consumer_key = ''
+consumer_secret = ''
+access_token = ''
+access_token_secret = ''
+bearer = ''
 
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_token_secret)
